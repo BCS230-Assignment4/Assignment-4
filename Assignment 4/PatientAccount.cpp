@@ -27,8 +27,8 @@ void PatientAccount :: getStayCost(){
  *  is the variable for the over all fee of the Patient.                                     *
  *********************************************************************************************/
 
-void PatientAccount :: getTotalCost(float totCostOfSurgery, float totCostOfPharmacy) {
-    charges = stayCost + totCostOfSurgery + totCostOfPharmacy;
+void PatientAccount :: getTotalCost(){
+    charges = stayCost + surgeryCharges + pharmCharges;
 }
 
 void PatientAccount :: updateSurgery(float cost)
