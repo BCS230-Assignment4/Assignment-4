@@ -12,9 +12,6 @@
 #ifndef PatientAccount_h
 #define PatientAccount_h
 
-#include <iostream>
-using namespace std;
-
 class PatientAccount{
     
 private:

@@ -1,6 +1,9 @@
 
-#include <stdio.h>
 #include "PatientAccount.h"
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
 
 /*********************************************************************************************
  *                        PatientAccount :: getTotCostPerDay                                 *
