@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C7DC4D691F865A6000914A3C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7DC4D681F865A6000914A3C /* main.cpp */; };
+		C7DC4D711F866D0C00914A3C /* PatientAccount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7DC4D701F866D0C00914A3C /* PatientAccount.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,7 @@
 		C7DC4D651F865A6000914A3C /* Assignment 4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Assignment 4"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DC4D681F865A6000914A3C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C7DC4D6F1F866C6200914A3C /* PatientAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PatientAccount.h; sourceTree = "<group>"; };
+		C7DC4D701F866D0C00914A3C /* PatientAccount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PatientAccount.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				C7DC4D681F865A6000914A3C /* main.cpp */,
 				C7DC4D6F1F866C6200914A3C /* PatientAccount.h */,
+				C7DC4D701F866D0C00914A3C /* PatientAccount.cpp */,
 			);
 			path = "Assignment 4";
 			sourceTree = "<group>";
@@ -122,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7DC4D691F865A6000914A3C /* main.cpp in Sources */,
+				C7DC4D711F866D0C00914A3C /* PatientAccount.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
