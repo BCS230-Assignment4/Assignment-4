@@ -17,7 +17,7 @@ void PatientAccount :: getStayCost(){
     cin >> days;
     cout << "Based on the amount of days stayed the total cost of will be: ";
     stayCost = dailyRate * days;
-    cout << "$" << stayCost;
+    cout << "$" << stayCost<< endl;
 }
 
 /*********************************************************************************************

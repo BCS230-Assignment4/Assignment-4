@@ -8,12 +8,21 @@
 
 #include <iostream>
 #include "PatientAccount.h"
+#include "Surgery.h"
 
 using namespace std;
 
 int main() {
     
     
+    PatientAccount john;
+    Surgery case1;
+    
+    john.getStayCost();
+    
+    case1.Hand(john);
+    
+    john.getTotalCost();
     
     
     
