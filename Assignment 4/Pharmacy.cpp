@@ -1,36 +1,37 @@
 
-#include "Surgery.h"
+#include "Pharmacy.h"
 #include <iostream>
 #include <stdio.h>
 
 using namespace std;
 
-void Surgery::Hand(PatientAccount& patient)
+void Pharmacy::levothyroxine(PatientAccount& patient)
 {
     cout << "Patient underwent hand surgery!" << endl << "$43,643 has been added to their cost!" << endl;
-    patient.updateSurgery(handCost);
+    patient.updateSurgery(levothyroxineCost);
     
 }
-void Surgery::Spinal(PatientAccount& patient)
+void Pharmacy::rosuvastatin(PatientAccount& patient)
 {
     cout << "Patient underwent spinal surgery!" << endl << "$86,055 has been added to their cost!" << endl;
-    patient.updateSurgery(spinalCost);
+    patient.updateSurgery(rosuvastatinCost);
 }
-void Surgery::Brain(PatientAccount& patient)
+void Pharmacy::albuterol(PatientAccount& patient)
 {
     cout << "Patient underwent brain surgery!" << endl << "$153,537 has been added to their cost!" << endl;
-    patient.updateSurgery(brainCost);
-
+    patient.updateSurgery(albuterolCost);
+    
 }
-void Surgery::Cardiac(PatientAccount& patient)
+void Pharmacy::esomeprazole(PatientAccount& patient)
 {
     cout << "Patient underwent cardiac surgery!" << endl << "$72,834 has been added to their cost!" << endl;
-    patient.updateSurgery(cardiacCost);
-
+    patient.updateSurgery(esomeprazoleCost);
+    
 }
-void Surgery::Knee(PatientAccount& patient)
+void Pharmacy::fluticasone(PatientAccount& patient)
 {
     cout << "Patient underwent knee surgery!" << endl << "$43,643 has been added to their cost!" << endl;
-    patient.updateSurgery(kneeCost);
-
+    patient.updateSurgery(fluticasoneCost);
+    
 }
+

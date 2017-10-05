@@ -7,11 +7,11 @@
 #include "PatientAccount.h"
 
 class Surgery {
-    int majorHand = 43643;
-    int majorSpinal = 86055;
-    int majorBrain = 153537;
-    int majorCardiac = 48389;
-    int majorKnee = 72834;
+    int handCost = 43643;
+    int spinalCost = 86055;
+    int brainCost = 153537;
+    int cardiacCost = 48389;
+    int kneeCost = 72834;
 public:
     void Hand(PatientAccount&);
     void Spinal(PatientAccount&);

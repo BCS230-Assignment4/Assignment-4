@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7C122CD1F8684D600E38D23 /* Pharmacy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7C122CC1F8684D600E38D23 /* Pharmacy.cpp */; };
 		C7DC4D691F865A6000914A3C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7DC4D681F865A6000914A3C /* main.cpp */; };
 		C7DC4D711F866D0C00914A3C /* PatientAccount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7DC4D701F866D0C00914A3C /* PatientAccount.cpp */; };
 		C7DC4D741F86742000914A3C /* Surgery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7DC4D731F86742000914A3C /* Surgery.cpp */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C7C122CB1F8684CA00E38D23 /* Pharmacy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pharmacy.h; sourceTree = "<group>"; };
+		C7C122CC1F8684D600E38D23 /* Pharmacy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pharmacy.cpp; sourceTree = "<group>"; };
 		C7DC4D651F865A6000914A3C /* Assignment 4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Assignment 4"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DC4D681F865A6000914A3C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C7DC4D6F1F866C6200914A3C /* PatientAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PatientAccount.h; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				C7DC4D701F866D0C00914A3C /* PatientAccount.cpp */,
 				C7DC4D721F86731400914A3C /* Surgery.h */,
 				C7DC4D731F86742000914A3C /* Surgery.cpp */,
+				C7C122CB1F8684CA00E38D23 /* Pharmacy.h */,
+				C7C122CC1F8684D600E38D23 /* Pharmacy.cpp */,
 			);
 			path = "Assignment 4";
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			files = (
 				C7DC4D691F865A6000914A3C /* main.cpp in Sources */,
 				C7DC4D711F866D0C00914A3C /* PatientAccount.cpp in Sources */,
+				C7C122CD1F8684D600E38D23 /* Pharmacy.cpp in Sources */,
 				C7DC4D741F86742000914A3C /* Surgery.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

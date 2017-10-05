@@ -35,3 +35,8 @@ void PatientAccount :: updateSurgery(float cost)
 {
     surgeryCharges += cost;
 }
+
+void PatientAccount :: updatePharmacy(float cost)
+{
+    pharmCharges += cost;
+}

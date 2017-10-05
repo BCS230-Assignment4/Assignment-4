@@ -24,6 +24,7 @@ public:
     void getStayCost();
     void getTotalCost();
     void updateSurgery(float);
+    void updatePharmacy(float);
 };
 
 #endif /* PatientAccount_h */
