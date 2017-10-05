@@ -18,15 +18,14 @@ using namespace std;
 class PatientAccount{
     
 private:
+    int days;
     float stayCost;
     float dailyRate = 2152;
-    int days;
     float totalCost;
     
 public:
-    PatientAccount(float totCostPerDay, int days, float totalCost);
-    void getTotCostPerDay();
-    float getTotalCost(float& totCostPerDay, float totCostOfSurgery, float& totCostOfPharmacy);
+    void getStayCost();
+    void getTotalCost(float totCostOfSurgery, float totCostOfPharmacy);
 };
 
 #endif /* PatientAccount_h */

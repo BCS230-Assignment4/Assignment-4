@@ -3,26 +3,13 @@
 #include "PatientAccount.h"
 
 /*********************************************************************************************
- *                         PatientAccount :: PatientAccount                                   *
- *   This is the Constructor.                                                                 *
- *                                                                                            *
- *                                                                                            *
- *********************************************************************************************/
-
-PatientAccount :: PatientAccount(float totPD = 0, int d = 0, float tC = 0) {
-    totCostPerDay = totPD;
-    days = d;
-    totalCost = tC;
-}
-
-/*********************************************************************************************
- *                        PatientAccount :: getTotCostPerDay                                    *
+ *                        PatientAccount :: getTotCostPerDay                                 *
  *  This function gets the amount of days spent at the hospital. It then gets the daily rate *
  *  of $2,152 and multiplies it by the "days". Which then passes the product to              *
- *  totCostPerDay and the function returns a float.                                          *
+ *  stayCost                                                                                 *
  *********************************************************************************************/
 
-void PatientAccount :: getTotCostPerDay() {
+void PatientAccount :: getStayCost(){
     cout << "Enter the amount of says the patient has been at the hospital: ";
     cin >> days;
     cout << "Based on the amount of days stayed the total cost of will be: ";
@@ -37,16 +24,7 @@ void PatientAccount :: getTotCostPerDay() {
  *  is the variable for the over all fee of the Patient.                                     *
  *********************************************************************************************/
 
-float PatientAccount :: getTotalCost(float& totCostPerDay, float totCostOfSurgery, float& totCostOfPharmacy) {
-    
-    totalCost = totCostPerDay + totCostOfSurgery + totCostOfPharmacy;
-    return (totalCost);
-}
-
-
-int main () {
-    
-    PatientAccount john;
-    john.getTotCostPerDay();
+void PatientAccount :: getTotalCost(float totCostOfSurgery, float totCostOfPharmacy) {
+    totalCost = stayCost + totCostOfSurgery + totCostOfPharmacy;
 }
 
