@@ -13,11 +13,11 @@ class Surgery {
     int majorCardiac = 48389;
     int majorKnee = 72834;
 public:
-    void Hand(PatientAccount);
-    void Spinal(PatientAccount);
-    void Brain(PatientAccount);
-    void Cardiac(PatientAccount);
-    void Knee(PatientAccount);
+    void Hand(PatientAccount&);
+    void Spinal(PatientAccount&);
+    void Brain(PatientAccount&);
+    void Cardiac(PatientAccount&);
+    void Knee(PatientAccount&);
 };
 
 #endif /* Surgery_h */
