@@ -21,7 +21,7 @@ private:
     int days;
     float stayCost;
     float dailyRate = 2152;
-    float totalCost;
+    float charges;
     
 public:
     void getStayCost();

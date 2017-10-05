@@ -25,6 +25,6 @@ void PatientAccount :: getStayCost(){
  *********************************************************************************************/
 
 void PatientAccount :: getTotalCost(float totCostOfSurgery, float totCostOfPharmacy) {
-    totalCost = stayCost + totCostOfSurgery + totCostOfPharmacy;
+    charges = stayCost + totCostOfSurgery + totCostOfPharmacy;
 }
 
