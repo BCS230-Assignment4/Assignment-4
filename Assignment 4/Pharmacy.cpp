@@ -7,31 +7,31 @@ using namespace std;
 
 void Pharmacy::levothyroxine(PatientAccount& patient)
 {
-    cout << "Patient purchased levothyroxine!" << endl << "$89 has been added to their cost!" << endl;
-    patient.updateSurgery(levothyroxineCost);
+    cout << "\tPatient purchased levothyroxine!" << endl << "  $89 has been added to their cost!" << endl;
+    patient.updatePharmacy(levothyroxineCost);
     
 }
 void Pharmacy::rosuvastatin(PatientAccount& patient)
 {
-    cout << "Patient purchased rosuvastatin!" << endl << "$243 has been added to their cost!" << endl;
-    patient.updateSurgery(rosuvastatinCost);
+    cout << "\tPatient purchased rosuvastatin!" << endl << "  $243 has been added to their cost!" << endl;
+    patient.updatePharmacy(rosuvastatinCost);
 }
 void Pharmacy::albuterol(PatientAccount& patient)
 {
-    cout << "Patient purchased albuterol!" << endl << "$543 has been added to their cost!" << endl;
-    patient.updateSurgery(albuterolCost);
+    cout << "\tPatient purchased albuterol!" << endl << "  $543 has been added to their cost!" << endl;
+    patient.updatePharmacy(albuterolCost);
     
 }
 void Pharmacy::esomeprazole(PatientAccount& patient)
 {
-    cout << "Patient purchased esomeprazole!" << endl << "$133 has been added to their cost!" << endl;
-    patient.updateSurgery(esomeprazoleCost);
+    cout << "\tPatient purchased esomeprazole!" << endl << "  $133 has been added to their cost!" << endl;
+    patient.updatePharmacy(esomeprazoleCost);
     
 }
 void Pharmacy::fluticasone(PatientAccount& patient)
 {
-    cout << "Patient purchased fluticasone!" << endl << "$745 has been added to their cost!" << endl;
-    patient.updateSurgery(fluticasoneCost);
+    cout << "\tPatient purchased fluticasone!" << endl << "  $745 has been added to their cost!" << endl;
+    patient.updatePharmacy(fluticasoneCost);
     
 }
 
