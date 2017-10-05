@@ -10,9 +10,9 @@
  *********************************************************************************************/
 
 void PatientAccount :: getStayCost(){
-    cout << "Enter the amount of says the patient has been at the hospital: ";
+    cout << "Enter the amount of days the patient has been at the hospital: ";
     cin >> days;
-    cout << "Based on the amount of days stayed the total cost of will be: ";
+    cout << "Based on the amount of days stayed, the total cost of will be: ";
     stayCost = dailyRate * days;
     cout << "$" << stayCost;
 }
