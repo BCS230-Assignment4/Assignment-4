@@ -20,7 +20,7 @@ class PatientAccount{
 private:
     int days;
     float stayCost;
-    float dailyRate = 2152;
+    float dailyRate = 2152; //The average cost per inpatient day in New York for a state/local hospital
     float charges;
     
 public:
