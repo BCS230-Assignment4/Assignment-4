@@ -1,5 +1,15 @@
 
-// Doug Hellberg || My Surgery class would take input from the patient to find out which surgery they had as well as to update the price
+////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                    //
+//  Surgery Class                                                                     //
+//  Header File                                                                       //
+//  Author: Doug Hellberg                                                             //
+//  Date: October 4, 2017                                                             //
+//  Purpose: To keep track of the available surgeries and pass data back to the       //
+//              PatientAccount to update the cost                                     //
+//                                                                                    //
+////////////////////////////////////////////////////////////////////////////////////////
+
 
 #ifndef Surgery_h
 #define Surgery_h

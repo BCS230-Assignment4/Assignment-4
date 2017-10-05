@@ -1,4 +1,13 @@
 
+////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                    //
+//  Patient Fees, Patient Acount Class                                                //
+//  Cpp File                                                                          //
+//  Author: Frederick Aranda                                                          //
+//  Date: October 4, 2017                                                             //
+//                                                                                    //
+////////////////////////////////////////////////////////////////////////////////////////
+
 #include "PatientAccount.h"
 #include <iostream>
 #include <stdio.h>
@@ -30,16 +39,6 @@ float PatientAccount :: getTotalCost(){
     return charges;
 }
 
-void PatientAccount :: updateSurgery(float cost)
-{
-    surgeryCharges += cost;
-}
-
-void PatientAccount :: updatePharmacy(float cost)
-{
-    pharmCharges += cost;
-}
-
 float PatientAccount::getSurgeryCost()
 {
     return surgeryCharges;
@@ -55,3 +54,12 @@ float PatientAccount::getStayCost()
     return stayCost;
 }
 
+void PatientAccount :: updateSurgery(float cost)
+{
+    surgeryCharges += cost;
+}
+
+void PatientAccount :: updatePharmacy(float cost)
+{
+    pharmCharges += cost;
+}

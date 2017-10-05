@@ -1,4 +1,15 @@
 
+////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                    //
+//  Pharmacy Class                                                                    //
+//  Header File                                                                       //
+//  Author: Doug Hellberg                                                             //
+//  Date: October 4, 2017                                                             //
+//  Purpose: To keep track of the available mediactions and pass data back to the     //
+//              PatientAccount to update the cost                                     //
+//                                                                                    //
+////////////////////////////////////////////////////////////////////////////////////////
+
 #ifndef Pharmacy_h
 #define Pharmacy_h
 
