@@ -21,8 +21,11 @@ private:
     float charges = 0, surgeryCharges = 0, pharmCharges = 0;
     
 public:
-    void getStayCost();
-    void getTotalCost();
+    void calcStayCost();
+    float getTotalCost();
+    float getSurgeryCost();
+    float getPharmacyCost();
+    float getStayCost();
     void updateSurgery(float);
     void updatePharmacy(float);
 };

@@ -12,12 +12,10 @@ using namespace std;
  *  stayCost                                                                                 *
  *********************************************************************************************/
 
-void PatientAccount :: getStayCost(){
-    cout << "Enter the amount of says the patient has been at the hospital: ";
+void PatientAccount :: calcStayCost(){
+    cout << "Enter days stayed overnight: ";
     cin >> days;
-    cout << "Based on the amount of days stayed the total cost of will be: ";
-    stayCost = dailyRate * days;
-    cout << "$" << stayCost<< endl;
+    stayCost += dailyRate * days;
 }
 
 /*********************************************************************************************
@@ -27,8 +25,9 @@ void PatientAccount :: getStayCost(){
  *  is the variable for the over all fee of the Patient.                                     *
  *********************************************************************************************/
 
-void PatientAccount :: getTotalCost(){
+float PatientAccount :: getTotalCost(){
     charges = stayCost + surgeryCharges + pharmCharges;
+    return charges;
 }
 
 void PatientAccount :: updateSurgery(float cost)
@@ -40,3 +39,19 @@ void PatientAccount :: updatePharmacy(float cost)
 {
     pharmCharges += cost;
 }
+
+float PatientAccount::getSurgeryCost()
+{
+    return surgeryCharges;
+}
+
+float PatientAccount::getPharmacyCost()
+{
+    return pharmCharges;
+}
+
+float PatientAccount::getStayCost()
+{
+    return stayCost;
+}
+
