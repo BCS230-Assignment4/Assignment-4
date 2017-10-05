@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		C7DC4D651F865A6000914A3C /* Assignment 4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Assignment 4"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DC4D681F865A6000914A3C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C7DC4D6F1F866C6200914A3C /* PatientAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PatientAccount.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				C7DC4D681F865A6000914A3C /* main.cpp */,
+				C7DC4D6F1F866C6200914A3C /* PatientAccount.h */,
 			);
 			path = "Assignment 4";
 			sourceTree = "<group>";
