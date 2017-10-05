@@ -31,3 +31,7 @@ void PatientAccount :: getTotalCost(float totCostOfSurgery, float totCostOfPharm
     charges = stayCost + totCostOfSurgery + totCostOfPharmacy;
 }
 
+void PatientAccount :: updateSurgery(float cost)
+{
+    surgeryCharges += cost;
+}

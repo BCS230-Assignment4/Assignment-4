@@ -4,6 +4,8 @@
 #ifndef Surgery_h
 #define Surgery_h
 
+#include "PatientAccount.h"
+
 class Surgery {
     int majorHand = 43643;
     int majorSpinal = 86055;
@@ -11,11 +13,11 @@ class Surgery {
     int majorCardiac = 48389;
     int majorKnee = 72834;
 public:
-    void Hand(double charges);
-    void Spinal(double charges);
-    void Brain(double charges);
-    void Cardiac(double charges);
-    void Knee(double charges);
+    void Hand(PatientAccount);
+    void Spinal(PatientAccount);
+    void Brain(PatientAccount);
+    void Cardiac(PatientAccount);
+    void Knee(PatientAccount);
 };
 
 #endif /* Surgery_h */

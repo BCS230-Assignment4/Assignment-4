@@ -18,11 +18,12 @@ private:
     int days;
     float stayCost;
     float dailyRate = 2152;
-    float charges;
+    float charges = 0, surgeryCharges = 0;
     
 public:
     void getStayCost();
     void getTotalCost(float totCostOfSurgery, float totCostOfPharmacy);
+    void updateSurgery(float);
 };
 
 #endif /* PatientAccount_h */
