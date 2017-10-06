@@ -7,3 +7,5 @@ Doug - Built Surgery and Pharmacy class
 
 Frederick - Built PatientAccount class
 
+Waqar - Built main functions and debug
+
